@@ -3,7 +3,6 @@ import { setupListeners } from '@reduxjs/toolkit/query'
 import { pokemonApi } from './src/services/pokemon';
 
 /* Este é nosso redux slice onde definimos nosso reducer e suas actions */
-
 export const store = configureStore({
   /* aqui adicionamos nosso reducer */
   reducer: {
